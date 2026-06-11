@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rising prices of dairy products and cheeses in Iraq, IIACSS</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&amp;family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --accent:#000bd6;
+  --ink:#111111;
+  --muted:#616161;
+  --link:#1f62ad;
+  --line:#d7d7d7;
+  --soft:#ffffff;
+  --panel:#ffffff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:Arial,'Helvetica Neue',sans-serif;line-height:1.52;-webkit-font-smoothing:antialiased}
+body.rtl {
+  direction: rtl;
+}
+a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+.topbar{background:#fff;border-top:5px solid var(--accent);border-bottom:1px solid var(--line);position:relative;z-index:10}
+.topbar::before{content:'';display:block;height:33px;background:#050505;border-bottom:1px solid #222}
+.pew-strip{position:absolute;top:0;left:0;right:0;height:33px;color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;display:flex;justify-content:center;align-items:center;pointer-events:none}
+.topbar-inner{max-width:1080px;margin:0 auto;padding:58px 0 42px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:16px;color:#111;font-family:Georgia,'Times New Roman',serif;font-size:31px;font-weight:400;letter-spacing:-.03em;line-height:1}
+.brand img{height:48px;max-width:220px;object-fit:contain}
+.brand span{border-left:1px solid #bbb;padding-left:16px;font-family:Arial,'Helvetica Neue',sans-serif;font-size:27px;font-weight:800;letter-spacing:-.04em}
+body.rtl .brand span {
+  border-left: none;
+  border-right: 1px solid #bbb;
+  padding-left: 0;
+  padding-right: 16px;
+}
+.top-meta{font-size:12px;color:#555;text-transform:uppercase;letter-spacing:.12em;font-weight:700;display:flex;align-items:center;gap:15px}
+.lang-switcher {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  border-radius: 2px;
+}
+.lang-switcher:hover {
+  background: #0008a3;
+}
+.main-nav{border-top:0;max-width:1080px;margin:0 auto;padding:0 0 19px;display:flex;gap:58px;font-size:14px;color:#333;text-transform:uppercase}.main-nav a{color:#333}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 0 70px}
+.breadcrumb {
+  color: #1f62ad;
+  font-size: 14px;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0 21px;
+  margin-bottom: 26px;
+  word-spacing: 4px;
+}
+.hero-grid{display:grid;grid-template-columns:minmax(0,690px) 320px;gap:56px;align-items:start;border-bottom:0;padding-bottom:26px;max-width:none}.hero-grid>div:first-child{max-width:690px}
+.kicker{color:#444;text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:.12em;margin:0 0 18px}
+.date{display:inline;color:#555;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+h1{font-family:Georgia,'Times New Roman',serif;color:#111;font-size:43px;line-height:1.08;letter-spacing:-.018em;font-weight:700;margin:20px 0 14px;max-width:690px}
+body.rtl h1, body.rtl .subtitle {
+  font-family: Arial, sans-serif;
+}
+.subtitle{font-family:Georgia,'Times New Roman',serif;color:#222;font-size:22px;font-style:italic;line-height:1.25;max-width:640px;margin:0 0 18px}
+.subtitle p{margin:0 0 10px}
+.byline{font-size:12px;color:#555;text-transform:uppercase;font-weight:700;margin:18px 0;border-top:0;padding-top:0}
+.byline strong{color:#1f62ad}
+.hero-main-image{margin:22px 0 0}
+.hero-main-image img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;border:0}
+.caption{font-size:12px;color:#666;line-height:1.45;margin-top:8px}
+.research-card{background:var(--panel);border-top:0;margin-top:0;padding:0 0 16px;max-width:320px;border:1px solid var(--line)}
+.research-card-title {
+  background:#050505;color:#fff;font-size:12px;letter-spacing:.12em;font-weight:800;padding:8px 14px;margin:0 0 14px;text-transform:uppercase;
+}
+.research-card img{display:none}.research-card h3{font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;line-height:1.35;margin:0 14px 14px;color:#111}
+.research-card h4{font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;border-top:1px solid #d7d2cb;margin:14px 14px 8px;padding-top:13px;color:#111}
+.research-card p{font-size:14px;line-height:1.45;color:#333;margin:0 14px 12px}
+.research-card ul { margin: 0 14px 12px; padding-left: 20px; font-size: 14px; color: #333; line-height: 1.45; }
+body.rtl .research-card ul { padding-left: 0; padding-right: 20px; }
+.toc{display:grid;grid-template-columns:minmax(0,690px) 320px;gap:56px;align-items:start;margin-top:0}
+.toc aside{order:2;position:sticky;top:20px;border-top:0;padding:0;background:#f1f1f1;max-height:70vh;overflow:auto;width:320px;}
+.toc aside h2{background:#050505;color:#fff;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0;padding:9px 14px}
+.toc ol{margin:0;padding:13px 14px 16px;list-style:none;font-size:14px;line-height:1.35}
+.toc li{margin:0 0 14px;color:#333}
+.toc li:first-child{font-weight:700}
+.toc article{order:1}
+article{font-size:16px;line-height:1.62;color:#222;max-width:690px}
+article p{margin:0 0 19px}
+article .lead,.lead{font-size:17px;line-height:1.62;color:#222}
+article h2{font-family:Georgia,'Times New Roman',serif;color:#111;font-size:30px;line-height:1.18;letter-spacing:-.01em;border-top:1px solid var(--line);padding-top:26px;margin:38px 0 14px}
+body.rtl article h2 { font-family: Arial, sans-serif; }
+article h3{font-size:18px;line-height:1.35;color:#111;margin:28px 0 9px}
+article ul, article ol { margin: 0 0 19px; padding-left: 24px; }
+body.rtl article ul, body.rtl article ol { padding-left: 0; padding-right: 24px; }
+article li { margin-bottom: 6px; }
+.figure{margin:28px 0}.figure img{width:100%;display:block;border:0;aspect-ratio:16/9;object-fit:cover}
+.article-visual{float:right;width:42%;max-width:330px;margin:4px 0 20px 28px}
+body.rtl .article-visual { float: left; margin: 4px 28px 20px 0; }
+.article-visual img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;border:0}
+article::after{content:'';display:block;clear:both}
+.note-box{background:#f1f1f1;border-left:0;border-top:4px solid #050505;padding:18px 20px;margin:28px 0}
+.note-box .label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#111;margin:0 0 8px}
+.note-box p{font-size:15px;line-height:1.55;margin:0 0 9px}
+.quote{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0;margin:30px 0;background:#fff}
+.quote q{quotes:none;font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:1.45;font-style:italic;color:#222}
+body.rtl .quote q { font-family: Arial, sans-serif; }
+.quote q:before,.quote q:after{content:''}
+.quote .attr{font-size:11px;color:#555;text-transform:uppercase;letter-spacing:.1em;margin-top:12px}
+.chart-card,.price-chart-wrap{background:#fff;border:1px solid var(--line);border-top:5px solid #050505;padding:24px;margin:30px 0}
+.chart-card h3,.price-chart-wrap h3{font-family:Georgia,'Times New Roman',serif;color:#111;font-size:23px;line-height:1.25;margin:0 0 16px}
+body.rtl .chart-card h3, body.rtl .price-chart-wrap h3 { font-family: Arial, sans-serif; }
+.price-chart-controls{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+.price-chart-controls button{border:1px solid #bbb;background:#fff;color:#333;cursor:pointer;font-family:Arial,'Helvetica Neue',sans-serif;font-size:11px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:8px 12px}
+.price-chart-controls button.active,.price-chart-controls button:hover{background:#050505;border-color:#050505;color:#fff}
+.price-bars{display:flex;flex-direction:column;gap:13px}
+.price-row{display:grid;grid-template-columns:170px 1fr 64px;gap:14px;align-items:center;font-size:14px}
+.price-row .name{font-weight:700;color:#222}
+.price-row .bar-wrap,.bar-track{height:24px;background:#eee;overflow:hidden}
+.price-row .bar,.bar{height:100%;background:#244f76;transition:width 1s cubic-bezier(.22,1,.36,1)}
+.price-row .bar.sharp,.bar.red{background:var(--accent)}
+.price-row .bar.moderate,.bar.soft{background:#6d7f91}
+.price-row .bar.stable{background:#a7b1bc}
+.price-row .val{font-weight:800;color:#111;text-align:right}
+body.rtl .price-row .val { text-align: left; }
+.chart-source{font-size:12px;color:#666;border-top:1px solid var(--line);padding-top:12px;margin-top:18px;line-height:1.45}
+.bar-row{display:grid;grid-template-columns:170px 1fr 64px;gap:14px;align-items:center;margin:12px 0;font-size:14px}
+.footer-cta{margin-top:48px;background:#111;color:#fff;padding:28px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
+.footer-cta h2{font-family:Georgia,'Times New Roman',serif;color:#fff;margin:0 0 8px;font-size:26px;line-height:1.25}
+body.rtl .footer-cta h2 { font-family: Arial, sans-serif; }
+.footer-cta p{color:rgba(255,255,255,.86);font-size:15px;margin:0}
+.btn{border:1px solid #fff;color:#fff;padding:11px 18px;text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:800;white-space:nowrap}
+footer{background:#f5f5f5;border-top:1px solid var(--line);padding:24px;color:#666;font-size:12px}
+footer .inner{max-width:1080px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:1120px){.topbar-inner,.main-nav,.wrap{max-width:calc(100% - 40px)}.hero-grid,.toc{grid-template-columns:minmax(0,1fr) 300px;gap:36px}}
+@media(max-width:860px){.topbar-inner{padding:34px 0 24px}.main-nav{gap:18px;overflow:auto;padding-bottom:14px}.hero-grid,.toc,.footer-cta{grid-template-columns:1fr}.research-card{max-width:none;margin-top:22px}.toc aside{position:static;max-height:none;width:100%}.wrap{max-width:calc(100% - 32px)}h1{font-size:38px}.subtitle{font-size:19px}article{font-size:16px}.article-visual{float:none;width:100%;max-width:none;margin:24px 0}.price-row,.bar-row{grid-template-columns:120px 1fr 58px;gap:10px}}
+@media(max-width:560px){.brand{font-size:22px}.brand img{height:36px;max-width:150px}.brand span{font-size:21px}.top-meta{display:none}.pew-strip{font-size:9px}.wrap::before{font-size:12px;word-spacing:4px}h1{font-size:32px}.price-row,.bar-row{grid-template-columns:1fr 58px}.price-row .bar-wrap,.bar-track{grid-column:1/-1;grid-row:2}.footer-cta{padding:22px}}
+
+.about-research{border:1px solid var(--line);background:#f7f7f4;margin:28px 0 8px;max-width:690px}
+.about-toggle{width:100%;background:none;border:none;display:flex;justify-content:space-between;align-items:center;padding:15px 18px;cursor:pointer;font-size:15px;font-weight:700;font-family:Arial,'Helvetica Neue',sans-serif;color:#111;text-align:left}
+body.rtl .about-toggle { text-align: right; }
+.about-toggle:hover{background:#f1f1ed}.about-icon{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border:1px solid #333;border-radius:50%;font-size:13px;line-height:1}
+.about-content{display:none;padding:0 18px 22px;border-top:1px solid var(--line)}.about-content.open{display:block}.about-content p{font-size:15px;line-height:1.75;color:#111;margin:17px 0}.about-content h4{font-size:15px;font-weight:800;margin:24px 0 10px;color:#111}
+
+[data-lang="ar"] { display: none; }
+body.rtl [data-lang="en"] { display: none; }
+body.rtl [data-lang="ar"] { display: block; }
+</style>
+</head>
+<body>
+<header class="topbar">
+<div class="pew-strip">
+  <span data-lang="en">Numbers, Facts and Trends Shaping Your Market</span>
+  <span data-lang="ar">الأرقام والحقائق والاتجاهات التي تشكل سوقك</span>
+</div>
+<div class="topbar-inner">
+<div class="brand">
+  
+  <span data-lang="en">MARKET WATCH</span><span data-lang="ar">مرصد السوق</span>
+</div>
+<div class="top-meta">
+  <button class="lang-switcher" onclick="toggleLanguage()">العربية / English</button>
+</div>
+</div>
+</header>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <span data-lang="en">Home  &gt;  Publications  &gt;  Iraq Dairy Market Report</span>
+    <span data-lang="ar">الرئيسية  &gt;  المطبوعات  &gt;  تقرير سوق الألبان في العراق</span>
+  </div>
+
+  <div class="hero-grid">
+    <div>
+      <div class="kicker"><span data-lang="en">RETAIL SECTOR INDICATORS</span><span data-lang="ar">مؤشرات قطاع التجزئة</span></div>
+      <h1 data-lang="en">Rising prices of dairy products and cheeses in Iraq: How has the market been affected according to retail sector indicators?</h1>
+      <h1 data-lang="ar">ارتفاع أسعار الألبان والأجبان في العراق: كيف تأثرت حركة السوق وفق مؤشرات قطاع التجزئة؟</h1>
+      
+      <div class="subtitle">
+        <p data-lang="en">An assessment of growing supply and pricing pressures reshapes competitive dynamics across Iraqi governorates during Q2 2026.</p>
+        <p data-lang="ar">تقييم لضغوط التوريد والأسعار المتزايدة التي تعيد تشكيل ديناميكيات التنافس عبر المحافظات العراقية خلال الربع الثاني من عام 2026.</p>
+      </div>
+
+      <div class="byline">
+        <span data-lang="en">By <strong>IIACSS Retail Research Team</strong></span>
+        <span data-lang="ar">بواسطة <strong>فريق أبحاث التجزئة في المجموعة المستقلة للأبحاث</strong></span>
+        <span class="date"> | June 2026</span>
+      </div>
+
+      <div class="hero-main-image">
+        <img alt="Dairy products display" src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=1200&q=80"/>
+        <div class="caption">
+          <span data-lang="en">Dairy and cheese varieties on retail shelves face unprecedented logistical headwinds and wholesale inflation in 2026.</span>
+          <span data-lang="ar">أصناف الألبان والأجبان على رفوف التجزئة تواجه عقبات لوجستية وتضخم أسعار الجملة غير مسبوق في عام 2026.</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="research-card">
+        <div class="research-card-title"><span data-lang="en">Report Materials</span><span data-lang="ar">مواد التقرير</span></div>
+        <h3 data-lang="en">Dairy Price Shocks Q2 2026</h3>
+        <h3 data-lang="ar">صدمات أسعار الألبان الربع الثاني 2026</h3>
+        <h4 data-lang="en">Core Categories Covered</h4>
+        <h4 data-lang="ar">الفئات الرئيسية المشمولة</h4>
+        <ul>
+          <li><span data-lang="en">Imported Cheeses &amp; Mozzarella</span><span data-lang="ar">الأجبان المستوردة والموزاريلا</span></li>
+          <li><span data-lang="en">Long-life Milk</span><span data-lang="ar">الحليب طويل الأمد</span></li>
+          <li><span data-lang="en">Butter &amp; Cream</span><span data-lang="ar">الزبدة والقشطة</span></li>
+          <li><span data-lang="en">Laban &amp; Yogurt Drinks</span><span data-lang="ar">اللبن الرائب والشنينة</span></li>
+        </ul>
+        <p data-lang="en" style="font-size:12px; margin-top:15px; color:#666;">Based on retail observations, wholesaler insights, and field tracking by IIACSS across Iraqi governorates.</p>
+        <p data-lang="ar" style="font-size:12px; margin-top:15px; color:#666;">استناداً إلى أرصاد قطاع التجزئة، وآراء تجار الجملة، والتتبع الميداني من قبل IIACSS في المحافظات العراقية.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toc">
+    <aside>
+      <h2><span data-lang="en">Table of Contents</span><span data-lang="ar">جدول المحتويات</span></h2>
+      <ol>
+        <li><span data-lang="en">Market Overview</span><span data-lang="ar">نظرة عامة على السوق</span></li>
+        <li><span data-lang="en">Key Findings</span><span data-lang="ar">أبرز الاستنتاجات</span></li>
+        <li><span data-lang="en">Pricing Pressure &amp; Estimates</span><span data-lang="ar">تقديرات ارتفاع الأسعار</span></li>
+        <li><span data-lang="en">Drivers of Disruption</span><span data-lang="ar">أبرز عوامل وأسباب الاضطراب</span></li>
+        <li><span data-lang="en">Local Brand Substitution</span><span data-lang="ar">وضع المنتجات المحلية والبدائل</span></li>
+        <li><span data-lang="en">Market Outlook</span><span data-lang="ar">النظرة المستقبلية</span></li>
+      </ol>
+    </aside>
+
+    <article>
+      <div class="lead">
+        <p data-lang="en">Iraq’s dairy and cheese market entered Q2 2026 under growing supply and pricing pressure, marking one of the sector’s most unstable periods in recent years. Between March and May, disruptions in transportation, unstable import flows, and rising wholesale costs significantly reshaped market conditions across imported dairy categories.</p>
+        <p data-lang="ar">بحسب بيانات رصد قطاع التجزئة لدى المجموعة المستقلة للأبحاث (IIACSS)، شهد سوق منتجات الألبان والأجبان في العراق, لا سيما خلال الفترة الممتدة من بداية شهر آذار وحتى منتصف شهر نيسان، حالة من عدم الاستقرار في الأسعار ومستويات التوفر، خصوصاً للمنتجات المستوردة. ويعود ذلك إلى مجموعة من العوامل، أبرزها التقلبات في سلاسل التوريد، والتغيرات في تكاليف الاستيراد والنقل، إلى جانب تفاوت مستويات العرض بين المحافظات ومنافذ البيع المختلفة.</p>
+        
+        <p data-lang="en">The shift comes at a time when Iraq remains heavily dependent on imported dairy products. Regional trade data showed Iraq ranked among the top five importers of Turkish dairy products during 2025, reinforcing the market’s reliance on external suppliers, particularly Turkey, Iran, Kuwait, and Gulf producers. (Kurdistan24)</p>
+        <p data-lang="ar">ويأتي هذا التحول في وقت لا يزال فيه العراق يعتمد بشكل كبير على منتجات الألبان المستوردة. حيث أظهرت بيانات التجارة الإقليمية أن العراق صنف ضمن أكبر خمسة مستوردين لمنتجات الألبان التركية خلال عام 2025، مما يؤكد اعتماد السوق على الموردين الخارجيين، لا سيما تركيا وإيران والكويت ومنتجي الخليج الآخرين. (Kurdistan24)</p>
+      </div>
+
+      <div class="about-research">
+        <button class="about-toggle" onclick="toggleAbout()">
+          <span data-lang="en">ABOUT THIS MARKET BRIEF</span><span data-lang="ar">حول هذا الموجز التسويقي</span>
+          <span class="about-icon">+</span>
+        </button>
+        <div class="about-content" id="aboutContent">
+          <p data-lang="en">This market brief draws on IIACSS retail observations, wholesaler insights, and on-the-ground market tracking across Iraqi governorates to assess how supply disruptions are affecting pricing, product availability, retailer performance, and competitive dynamics within the dairy sector.</p>
+          <p data-lang="ar">يستند هذا الموجز إلى رصد قطاع التجزئة لدى IIACSS، وآراء تجار الجملة، وتتبع السوق ميدانياً في مختلف المحافظات العراقية لتقييم كيفية تأثير اضطرابات التوريد على الأسعار، وتوفر المنتجات، وأداء بائعي التجزئة، وديناميكيات التنافس في قطاع الألبان.</p>
+        </div>
+      </div>
+
+      <h2><span data-lang="en">Key Findings</span><span data-lang="ar">أبرز الاستنتاجات والمؤشرات</span></h2>
+      <ul>
+        <li><span data-lang="en">Imported dairy products experienced the strongest price and supply pressure during Q2 2026.</span><span data-lang="ar">شهدت منتجات الألبان والأجبان المستوردة أعلى مستويات الضغط في الأسعار والتجهيز خلال الربع الثاني من عام 2026.</span></li>
+        <li><span data-lang="en">Retailers are facing lower profit margins despite higher market prices due to rapid wholesale inflation.</span><span data-lang="ar">يواجه أصحاب المنافذ والمحلات انخفاضاً واضحاً في هوامش أرباحهم على الرغم من ارتفاع الأسعار في السوق.</span></li>
+        <li><span data-lang="en">Local dairy brands are gaining shelf presence as imported supply weakens, opening strategic windows.</span><span data-lang="ar">تكتسب العلامات التجارية المحلية للألبان مساحات أوسع على الرفوف مع تراجع وتوفر المعروض المستورد.</span></li>
+        <li><span data-lang="en">Supply instability and pricing pressure are expected to continue through the coming months due to regional volatility.</span><span data-lang="ar">من المتوقع استمرار حالة عدم استقرار التجهيز وضغوط الأسعار خلال الأشهر القادمة نتيجة التقلبات اللوجستية الإقليمية.</span></li>
+      </ul>
+
+      <div class="article-visual">
+        <img alt="Supply Chain and Freight Logistics" src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=80"/>
+        <div class="caption">
+          <span data-lang="en">Regional transport lanes face continuous operational delays, leading to irregular supply routing.</span>
+          <span data-lang="ar">تواجه ممرات النقل الإقليمية تأخيرات تشغيلية مستمرة، مما يؤدي إلى عدم انتظام مسارات التوريد.</span>
+        </div>
+      </div>
+
+      <h2><span data-lang="en">Pricing Pressure &amp; Category Breakdown</span><span data-lang="ar">تقديرات ارتفاع الأسعار حسب الفئة</span></h2>
+      <p data-lang="en">Imported cheese products experienced the strongest increases across the market, with several products rising between 15% and 50% within a short period. Some SKUs increased by 250–500 IQD, while premium cheese products increased more particularly shredded mozzarella used heavily by restaurants and fast-food businesses, also recorded notable increases estimated between 15–25%. Butter and long-life milk followed similar trends, where supply shortages and transportation costs continue to push prices upward.</p>
+      <p data-lang="ar">شهدت الأجبان المستوردة أعلى نسبة ارتفاعات في السوق، حيث تراوحت الزيادة بين 15% إلى 50% خلال فترة وجيزة. وارتفعت أسعار بعض الأصناف بمقدار 250 - 500 دينار للمنتج الواحد، بينما شهدت أجبان الموزاريلا المبروشة المستخدمة بكثافة في المطاعم ارتفاعاً يقدر بين 15% - 25%. وسجل الزبد والحليب طويل الأمد اتجاهات مماثلة نتيجة نقص التجهيز وارتفاع كلف الشحن.</p>
+
+      <div class="price-chart-wrap">
+        <h3 data-lang="en">Observed Price Increases by Category (Q2 2026)</h3>
+        <h3 data-lang="ar">معدلات ارتفاع الأسعار المرصودة حسب الفئة (الربع الثاني 2026)</h3>
+        
+        <div class="price-chart-controls">
+          <button class="active" onclick="filterBars('all')"><span data-lang="en">All Categories</span><span data-lang="ar">جميع الفئات</span></button>
+          <button onclick="filterBars('sharp')"><span data-lang="en">High Surge (&gt;25%)</span><span data-lang="ar">ارتفاع عالٍ (&gt;25%)</span></button>
+          <button onclick="filterBars('moderate')"><span data-lang="en">Moderate Surge</span><span data-lang="ar">ارتفاع متوسط</span></button>
+        </div>
+
+        <div class="price-bars" id="priceBars">
+          </div>
+
+        <div class="chart-source">
+          <span data-lang="en">Source: IIACSS Retail Intelligence and Market Tracking Indicators across Iraq. Max values represent upper bounds of observed retail inflation.</span>
+          <span data-lang="ar">المصدر: مؤشرات رصد السوق وأبحاث قطاع التجزئة لدى IIACSS في العراق. تمثل القيم القصوى النطاق الأعلى للتضخم المرصود.</span>
+        </div>
+      </div>
+
+      <p data-lang="en">Meanwhile, categories such as laban, yogurt drinks (Shenina), and cream remained relatively more stable in demand, though retailers report continued pressure on profitability and lower margins due to elevated wholesale procurement rates.</p>
+      <p data-lang="ar">في المقابل، ظلت فئات مثل اللبن الرائب والشنينة والقشطة مستقرة نسبياً من حيث حجم الطلب، إلا أن أصحاب المحلات والمنافذ يشكون من انخفاض العوائد وهامش الربح بسبب الارتفاع الحاد في أسعار الجملة المفروضة عليهم من الموردين.</p>
+
+      <div class="note-box">
+        <div class="label"><span data-lang="en">Wholesaler Insights</span><span data-lang="ar">ملاحظة من سوق الجملة</span></div>
+        <p data-lang="en">According to wholesalers monitored by IIACSS, several products are increasingly entering through unofficial sourcing channels, adding substantial operational and clearing costs before the goods reach retail shelves.</p>
+        <p data-lang="ar">وفقاً لتجار الجملة الذين جرى رصدهم، فإن بعض المنتجات بدأت تدخل عبر طرق غير رسمية نتيجة الاضطرابات، مما يتسبب في زيادة تكاليف التشغيل الإضافية والكلفة الإجمالية قبل وصولها للمستهلك.</p>
+      </div>
+
+      <h2><span data-lang="en">What is Driving the Disruption?</span><span data-lang="ar">أبرز عوامل وأسباب الاضطراب</span></h2>
+      <p data-lang="en">According to wholesalers and retailers monitored by IIACSS, four major pressures are currently shaping Iraq’s dairy market:</p>
+      <p data-lang="ar">تتضافر أربعة عوامل أساسية ورئيسية في صياغة المشهد الراهن لسوق الألبان في العراق وفق مؤشرات قطاع التجزئة:</p>
+      
+      <ol>
+        <li>
+          <strong><span data-lang="en">Reduced Import Flow:</span><span data-lang="ar">انخفاض كميات التجهيز والاستيراد:</span></strong>
+          <span data-lang="en">Several imported dairy products are entering Iraq in lower quantities than normal, reducing shelf availability across multiple categories.</span>
+          <span data-lang="ar">تدفق كميات أقل من المعتاد من منتجات الألبان عبر الحدود، مما قلل من مستويات التوفر على الرفوف.</span>
+        </li>
+        <li>
+          <strong><span data-lang="en">Transportation and Logistics Pressure:</span><span data-lang="ar">صعوبات النقل واللوجستيات:</span></strong>
+          <span data-lang="en">Higher transportation costs, irregular trade routes, and unstable regional logistics due to military and political tensions continue affecting landed prices.</span>
+          <span data-lang="ar">ارتفاع كلف الشحن وتغير مسارات التجارة نتيجة التوترات العسكرية والإقليمية المستمرة التي تؤثر على أسعار الوصول النهائي.</span>
+        </li>
+        <li>
+          <strong><span data-lang="en">Rising Wholesale Costs:</span><span data-lang="ar">ارتفاع أسعار الجملة:</span></strong>
+          <span data-lang="en">Retailers report that wholesale inflation is increasing faster than their ability to adjust retail prices, squeezed by thin margins.</span>
+          <span data-lang="ar">ارتفاع أسعار التجهيز من قبل الموردين وتجار الجملة بوتيرة أسرع من قدرة أصحاب المحلات على تعديل أسعار البيع دون خسارة الزبائن.</span>
+        </li>
+        <li>
+          <strong><span data-lang="en">Regional Instability:</span><span data-lang="ar">الأوضاع السياسية والإقليمية:</span></strong>
+          <span data-lang="en">Political and regional developments continue to disrupt supply chains and create uncertainty around import continuity.</span>
+          <span data-lang="ar">الاضطرابات السياسية الإقليمية المستمرة التي تخلق حالة من عدم اليقين حول استمرارية العقود والتوريد الخارجي.</span>
+        </li>
+      </ol>
+
+      <div class="quote">
+        <q data-lang="en">The current environment presents a strategic opening for local Iraqi manufacturers to strengthen distribution, improve retailer relationships, and secure longer-term shelf positioning.</q>
+        <q data-lang="ar">إن بيئة السوق الحالية توفر فرصة استراتيجية للمصنعين المحليين في العراق لتعزيز شبكات التوزيع، وتحسين العلاقات مع بائعي التجزئة، وضمان مكانة أفضل على الرفوف على المدى الطويل.</q>
+        <div class="attr"><span data-lang="en">IIACSS Retail Analysis Team</span><span data-lang="ar">فريق تحليل التجزئة - المجموعة المستقلة لأبحاث السوق</span></div>
+      </div>
+
+      <h2><span data-lang="en">Local Brands Are Benefiting from the Shift</span><span data-lang="ar">وضع المنتجات المحلية والبدائل</span></h2>
+      <p data-lang="en">While imported products are losing consistency, local dairy brands are gaining visibility. IIACSS observations show local products expanding shelf placement across processed cheese, mozzarella, and several basic dairy categories. The shift is becoming increasingly noticeable as retailers search for more stable supply alternatives.</p>
+      <p data-lang="ar">بينما تفقد المنتجات المستوردة استقرارها وتواجه انقطاعات متكررة، بدأت المنتجات المحلية في التوسع وكسب مساحات عرض أكبر على رفوف المحلات، لا سيما في فئات الأجبان المصنعة، الموزاريلا، وبعض فئات الألبان الأساسية، حيث يبحث أصحاب منافذ البيع عن بدائل توريد أكفأ وأكثر استقراراً.</p>
+      
+      <p data-lang="en">However, local substitution remains partial rather than complete. Current local production capacity is helping absorb part of the supply gap, but it is not yet sufficient to fully replace imported supply across all product variations and SKUs. Still, it marks a significant structural momentum for domestic agro-industry players.</p>
+      <p data-lang="ar">ومع ذلك، فإن هذا الإحلال للمنتج المحلي لا يزال جزئياً وليس كلياً؛ إذ تساهم القدرة الإنتاجية المحلية الحالية في سد جزء من الفجوة التموينية في السوق، إلا أنها لم تصل بعد إلى الكفاية التامة التي تمكنها من استبدال كافة الفئات والمنتجات المستوردة بالكامل. لكنها تشكل دفعة هيكلية مهمة للصناعة الوطنية.</p>
+
+      <div class="figure">
+        <img alt="Local Dairy Production Iraq" src="https://images.unsplash.com/photo-1528498033053-16684adf1a0a?auto=format&fit=crop&w=1200&q=80"/>
+        <div class="caption">
+          <span data-lang="en">Local Iraqi dairy processors look to expand capacity amid prolonged import constraints.</span>
+          <span data-lang="ar">معامل الألبان العراقية المحلية تسعى لتوسيع طاقتها الإنتاجية في ظل قيود الاستيراد المستمرة.</span>
+        </div>
+      </div>
+
+      <h2><span data-lang="en">Outlook</span><span data-lang="ar">النظرة المستقبلية</span></h2>
+      <p data-lang="en">IIACSS expects pricing pressure and supply instability across imported dairy categories to continue through the coming months, particularly if transportation and regional logistics conditions remain volatile.</p>
+      <p data-lang="ar">تتوقع المجموعة المستقلة للأبحاث (IIACSS) استمرار ضغوط الأسعار وعدم استقرار التجهيز لفئات الألبان والأجبان المستوردة خلال الأشهر القليلة القادمة، خاصة إذا ما استمرت تقلبات حركة الشحن وظروف اللوجستيات الإقليمية.</p>
+
+      <p data-lang="en">The pace of market stabilization will likely depend on:</p>
+      <p data-lang="ar">ويرهن التقرير وتيرة استقرار السوق وتحسن الحركة بمجموعة من المحددات:</p>
+      <ul>
+        <li><span data-lang="en">Recovery of import flows from primary manufacturing nations.</span><span data-lang="ar">تعافي تدفقات الاستيراد والتجهيز من دول المنشأ الأساسية.</span></li>
+        <li><span data-lang="en">Stability of regional trade routes and border clearance speed.</span><span data-lang="ar">استقرار طرق التجارة الإقليمية وسرعة التخليص الجمركي عند الحدود.</span></li>
+        <li><span data-lang="en">Transportation cost normalization.</span><span data-lang="ar">عطوف واستقرار كلف النقل البري والبحري.</span></li>
+        <li><span data-lang="en">Expansion of local dairy production capacity to bridge gaps permanently.</span><span data-lang="ar">توسع الطاقة الإنتاجية للمصانع المحلية لسد الفجوات بشكل دائم.</span></li>
+      </ul>
+
+      <p data-lang="en">Businesses with stronger sourcing flexibility, resilient distribution systems, and stable retailer relationships are likely to be better positioned to navigate the evolving market environment.</p>
+      <p data-lang="ar">وفي المحصلة، فإن الشركات والموزعين الذين يتمتعون بمرونة أكبر في سلاسل الإمداد، وأنظمة توزيع مرنة، وعلاقات متينة مع قطاع التجزئة، سيكونون الأكثر قدرة على التكيف وقيادة السوق في هذه البيئة المتغيرة.</p>
+    </article>
+  </div>
+
+  <div class="footer-cta">
+    <div>
+      <h2 data-lang="en">Subscribe to Iraq Market Watch</h2>
+      <h2 data-lang="ar">اشترك في مرصد السوق العراقي</h2>
+      <p data-lang="en">Get the latest retail indicators, wholesaler insights, and field tracking reports delivered straight to your inbox.</p>
+      <p data-lang="ar">احصل على أحدث مؤشرات قطاع التجزئة، وآراء تجار الجملة، وتقارير التتبع الميداني مباشرة في بريدك الإلكتروني.</p>
+    </div>
+    <div>
+      <a href="#" class="btn"><span data-lang="en">Subscribe Now</span><span data-lang="ar">اشترك الآن</span></a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="inner">
+    <div>
+      <span data-lang="en">&copy; 2026 IIACSS. All rights reserved. Retail Market Intelligence Division.</span>
+      <span data-lang="ar">&copy; 2026 المجموعة المستقلة للأبحاث (IIACSS). جميع الحقوق محفوظة. قسم أبحاث قطاع التجزئة.</span>
+    </div>
+    <div>
+      <a href="#"><span data-lang="en">Privacy Policy</span><span data-lang="ar">سياسة الخصوصية</span></a> &middot; 
+      <a href="#"><span data-lang="en">Terms of Service</span><span data-lang="ar">شروط الخدمة</span></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const priceData = [
+    { nameEn: 'Imported cheese', nameAr: 'الأجبان المستوردة', min: 15, max: 50, cat: 'sharp' },
+    { nameEn: 'Butter', nameAr: 'الزبدة', min: 20, max: 40, cat: 'sharp' },
+    { nameEn: 'Mozzarella products', nameAr: 'جبنة الموزاريلا', min: 15, max: 25, cat: 'moderate' },
+    { nameEn: 'Long-life milk', nameAr: 'الحليب طويل الأمد', min: 10, max: 25, cat: 'moderate' },
+    { nameEn: 'Cream', nameAr: 'القشطة', min: 5, max: 15, cat: 'moderate' }
+  ];
+
+  const priceBars = document.getElementById('priceBars');
+  let currentFilter = 'all';
+
+  function renderBars() {
+    if (!priceBars) return;
+    const isRtl = document.body.classList.contains('rtl');
+    const filtered = currentFilter === 'all' ? priceData : priceData.filter(item => item.cat === currentFilter);
+    priceBars.innerHTML = '';
+
+    filtered.forEach((item, index) => {
+      const row = document.createElement('div');
+      row.className = 'price-row';
+      const displayName = isRtl ? item.nameAr : item.nameEn;
+      
+      row.innerHTML = `
+        <div class="name">${displayName}</div>
+        <div class="bar-wrap">
+          <div class="bar ${item.cat}" style="width:0%"></div>
+        </div>
+        <div class="val">${item.min}–${item.max}%</div>
+      `;
+      priceBars.appendChild(row);
+
+      setTimeout(() => {
+        const bar = row.querySelector('.bar');
+        if (bar) bar.style.width = (item.max / 50) * 100 + '%';
+      }, 50 + index * 70);
+    });
+  }
+
+  function filterBars(filter) {
+    currentFilter = filter;
+    document.querySelectorAll('.price-chart-controls button').forEach(btn => btn.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    renderBars();
+  }
+
+  function toggleAbout() {
+    const content = document.getElementById('aboutContent');
+    const icon = document.querySelector('.about-icon');
+    if (content.classList.contains('open')) {
+      content.classList.remove('open');
+      icon.textContent = '+';
+    } else {
+      content.classList.add('open');
+      icon.textContent = '−';
+    }
+  }
+
+  function toggleLanguage() {
+    const body = document.body;
+    if (body.classList.contains('rtl')) {
+      body.classList.remove('rtl');
+      body.setAttribute('dir', 'ltr');
+    } else {
+      body.classList.add('rtl');
+      body.setAttribute('dir', 'rtl');
+    }
+    renderBars();
+  }
+
+  // Initial load
+  window.addEventListener('DOMContentLoaded', () => {
+    renderBars();
+  });
+</script>
+</body>
+</html>
